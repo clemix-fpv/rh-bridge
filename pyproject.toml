@@ -3,7 +3,7 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
-name = "rh-bridge"
+name = "rh-backpack-bridge"
 version = "0.0.1"
 authors = [
   { name="Clemens Famulla-Conrad", email="devel@clemix.de" },
@@ -14,9 +14,15 @@ requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
-license = "GPLv3"
+license = "GPL-3.0"
 license-files = ["LICEN[CS]E*"]
+dependencies = [
+    "pyserial",
+    "gevent"
+]
+[project.scripts]
+rh-backpack-bridge = "rh_backpack_bridge.main:main"
 
 [project.urls]
-Homepage = "https://github.com/clemix-fpv/rh-bridge"
-Issues = "https://github.com/clemix-fpv/rh-bridge/issues"
+Homepage = "https://github.com/clemix-fpv/rh-backpack-bridge"
+Issues = "https://github.com/clemix-fpv/rh-backpack-bridge/issues"

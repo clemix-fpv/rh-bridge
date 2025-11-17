@@ -7,7 +7,7 @@ import argparse
 import serial
 import time
 import logging
-from msp import MSPPacket, MSPTypes, MSPPacketType
+from .msp import MSPPacket, MSPTypes, MSPPacketType
 
 logging_level = logging.DEBUG
 stop_event = threading.Event()
@@ -218,7 +218,3 @@ def main():
             ser.close()
             logger.debug("Serial port closed.")
         logger.debug("Goodbye")
-
-
-if __name__ == "__main__":
-    main()
