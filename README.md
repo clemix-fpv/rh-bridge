@@ -3,7 +3,7 @@ Rotorhazard backpack bridge. This simple tool is usefull to
 use a cheap ESP32 Dev Kit and connect it via network close 
 to the pilots HDZero goggles.
 
-![rh-backpack-bridge usage](https://github.com/clemix-fpv/rh-backpack-bridge/blob/readme/images/rh_bridge.png?raw=true)
+![rh-backpack-bridge usage](https://github.com/clemix-fpv/rh-backpack-bridge/blob/main/images/rh_bridge.png?raw=true)
 
 
 # Installation:
@@ -29,7 +29,7 @@ to the pilots HDZero goggles.
 2) Configure the plugin. Select `Backpack Connection Type = Socket` and enter the 
    IP-Address in `ELRS Netpack Address` of the device where you run 
    the `rh-backpack-bridge` script. 
-   ![rh-backpack-bridge setup](https://github.com/clemix-fpv/rh-backpack-bridge/blob/readme/images/rh_setup.png?raw=true)
+   ![rh-backpack-bridge setup](https://github.com/clemix-fpv/rh-backpack-bridge/blob/main/images/rh_setup.png?raw=true)
 
 
 
